@@ -1,3 +1,5 @@
+// Section 6
+// Initializing Variables
 #include <iostream>
 
 using namespace std;
