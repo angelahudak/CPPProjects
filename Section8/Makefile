@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Euros - Debug ]----------"
-	@cd "Euros" && "$(MAKE)" -f  "Euros.mk"
+	@echo "----------Building project:[ IncrementDecrementOperators - Debug ]----------"
+	@cd "IncrementDecrementOperators" && "$(MAKE)" -f  "IncrementDecrementOperators.mk"
 clean:
-	@echo "----------Cleaning project:[ Euros - Debug ]----------"
-	@cd "Euros" && "$(MAKE)" -f  "Euros.mk" clean
+	@echo "----------Cleaning project:[ IncrementDecrementOperators - Debug ]----------"
+	@cd "IncrementDecrementOperators" && "$(MAKE)" -f  "IncrementDecrementOperators.mk" clean
