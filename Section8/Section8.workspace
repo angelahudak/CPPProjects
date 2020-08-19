@@ -5,7 +5,8 @@
   <Project Name="Euros" Path="Euros/Euros.project" Active="No"/>
   <Project Name="IncrementDecrementOperators" Path="IncrementDecrementOperators/IncrementDecrementOperators.project" Active="No"/>
   <Project Name="MixedExpressions" Path="MixedExpressions/MixedExpressions.project" Active="No"/>
-  <Project Name="EqualityOperators" Path="EqualityOperators/EqualityOperators.project" Active="Yes"/>
+  <Project Name="EqualityOperators" Path="EqualityOperators/EqualityOperators.project" Active="No"/>
+  <Project Name="RelationalOperators" Path="RelationalOperators/RelationalOperators.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +16,7 @@
       <Project Name="IncrementDecrementOperators" ConfigName="Debug"/>
       <Project Name="MixedExpressions" ConfigName="Debug"/>
       <Project Name="EqualityOperators" ConfigName="Debug"/>
+      <Project Name="RelationalOperators" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -24,6 +26,7 @@
       <Project Name="IncrementDecrementOperators" ConfigName="Release"/>
       <Project Name="MixedExpressions" ConfigName="Release"/>
       <Project Name="EqualityOperators" ConfigName="Release"/>
+      <Project Name="RelationalOperators" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
