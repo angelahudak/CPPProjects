@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section9" Database="" Version="10000">
   <Project Name="IfStatement" Path="IfStatement/IfStatement.project" Active="No"/>
-  <Project Name="IfElseStatement" Path="IfElseStatement/IfElseStatement.project" Active="Yes"/>
+  <Project Name="IfElseStatement" Path="IfElseStatement/IfElseStatement.project" Active="No"/>
+  <Project Name="Grades" Path="Grades/Grades.project" Active="No"/>
+  <Project Name="Application" Path="Application/Application.project" Active="No"/>
+  <Project Name="Shipping" Path="Shipping/Shipping.project" Active="No"/>
+  <Project Name="Switch" Path="Switch/Switch.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="IfStatement" ConfigName="Debug"/>
       <Project Name="IfElseStatement" ConfigName="Debug"/>
+      <Project Name="Grades" ConfigName="Debug"/>
+      <Project Name="Application" ConfigName="Debug"/>
+      <Project Name="Shipping" ConfigName="Debug"/>
+      <Project Name="Switch" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="IfStatement" ConfigName="Release"/>
       <Project Name="IfElseStatement" ConfigName="Release"/>
+      <Project Name="Grades" ConfigName="Release"/>
+      <Project Name="Application" ConfigName="Release"/>
+      <Project Name="Shipping" ConfigName="Release"/>
+      <Project Name="Switch" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
