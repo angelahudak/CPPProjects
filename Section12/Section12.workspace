@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section12" Database="" Version="10000">
-  <Project Name="SimplePointers" Path="SimplePointers/SimplePointers.project" Active="Yes"/>
+  <Project Name="SimplePointers" Path="SimplePointers/SimplePointers.project" Active="No"/>
+  <Project Name="Dereference" Path="Dereference/Dereference.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="SimplePointers" ConfigName="Debug"/>
+      <Project Name="Dereference" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="SimplePointers" ConfigName="Release"/>
+      <Project Name="Dereference" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
