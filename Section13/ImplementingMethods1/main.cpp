@@ -1,7 +1,9 @@
 // Section 13
 // Implementing member methods 1
+
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 class Account {
@@ -31,6 +33,10 @@ public:
 
 void Account::set_name(string n){
     name = n;
+}
+
+string Account::get_name(){
+    return name;
 }
 
 bool Account::deposit(double amount){

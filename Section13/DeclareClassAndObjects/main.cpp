@@ -29,8 +29,6 @@ class Account {
     bool deposit(double);
     bool withdraw(double);
     
-    
-    
 };
 
 int main() {
