@@ -3,7 +3,8 @@
   <Project Name="DeclareClassAndObjects" Path="DeclareClassAndObjects/DeclareClassAndObjects.project" Active="No"/>
   <Project Name="AccessingClassMembers" Path="AccessingClassMembers/AccessingClassMembers.project" Active="No"/>
   <Project Name="AccessModifiers" Path="AccessModifiers/AccessModifiers.project" Active="No"/>
-  <Project Name="ImplementingMethods1" Path="ImplementingMethods1/ImplementingMethods1.project" Active="Yes"/>
+  <Project Name="ImplementingMethods1" Path="ImplementingMethods1/ImplementingMethods1.project" Active="No"/>
+  <Project Name="ImplementingMethods2" Path="ImplementingMethods2/ImplementingMethods2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="AccessingClassMembers" ConfigName="Debug"/>
       <Project Name="AccessModifiers" ConfigName="Debug"/>
       <Project Name="ImplementingMethods1" ConfigName="Debug"/>
+      <Project Name="ImplementingMethods2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="AccessingClassMembers" ConfigName="Release"/>
       <Project Name="AccessModifiers" ConfigName="Release"/>
       <Project Name="ImplementingMethods1" ConfigName="Release"/>
+      <Project Name="ImplementingMethods2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
